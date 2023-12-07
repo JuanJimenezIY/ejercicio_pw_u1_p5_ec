@@ -1,0 +1,37 @@
+.container{
+display: grid;
+align-items: center;
+justify-content: center;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns:  repeat(3,90px);
+    content: 'X';
+
+}
+
+button{
+  
+    border-style: none;
+    border-radius: 10px;
+    background-color: #00ff37;
+    width: 80px;
+    height: 80px;
+    margin:6px;
+
+}
+
+button:hover{
+    background-color: #1d762f;
+    
+   
+
+}
+label{
+    margin-top: 20px;
+    text-align: center;
+}
+#b1{
+    content: 'X';
+}
